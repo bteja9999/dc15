@@ -1,0 +1,13 @@
+apiVersion: v2
+appVersion: 1.0.2
+description: Ingress controller for Kubernetes using NGINX as a reverse proxy and load balancer
+home: https://github.com/kubernetes/ingress-nginx
+keywords:
+- ingress
+- nginx
+kubeVersion: '>=1.19.0-0'
+name: ingress-nginx
+sources:
+- https://github.com/kubernetes/ingress-nginx
+type: application
+version: 4.0.3
